@@ -9,5 +9,6 @@ Lately, the solver can solve **1-D ordinary differential equations** of the foll
 With **contour conditions**:
 > u(x_i) = u_i and u(x_f) = u_f
 
-The ***exemplos.py*** script has some exemples with analitical solutions and derivatives, which can be usefull for further developments.
+The ***exemplos.py*** script has some examples with analytical solutions and derivatives, which can be useful for further developments and understandings.
 
+The test.ipynb is a simple Jupyter notebook to run the examples and plot the solution.
