@@ -6,7 +6,7 @@ This repository has a solver which is in development during the professor's **Ma
 Lately, the solver can solve **1-D ordinary differential equations** of the following type:
 > d/dx(a(x) du/dx) + b(x)du/dx + c(x)u = f(x)
 
-With **contour conditions**:
+on the interval [x_i, x_f] with **Dirichlet boundary conditions**:
 > u(x_i) = u_i and u(x_f) = u_f
 
 The ***exemplos.py*** script has some examples with analytical solutions and derivatives, which can be useful for further developments and understandings.
