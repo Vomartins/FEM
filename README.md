@@ -11,4 +11,4 @@ With **contour conditions**:
 
 The ***exemplos.py*** script has some examples with analytical solutions and derivatives, which can be useful for further developments and understandings.
 
-The test.ipynb is a simple Jupyter notebook to run the examples and plot the solution.
+The ***test.ipynb*** is a simple Jupyter notebook to run the examples and plot the solution.
