@@ -1,2 +1,13 @@
 # FEM
 Finite element method solver
+
+This repository has a solver which is in development during the professor's **Maicon Ribeiro Correa** (from *IMECC/UNICAMP*) course of **Finite Element Method**. As the objective of the study here is the finite element method itself the solver's efficiency needs improvement. The developer's native language is *Brazilian Portuguese*, so the scripts have several portuguese words, which'll be changed in the future.
+
+Lately, the solver can solve **1-D ordinary differential equations** of the following type:
+> d/dx(a(x) du/dx) + b(x)du/dx + c(x)u = f(x)
+
+With **contour conditions**:
+> u(x_i) = u_i and u(x_f) = u_f
+
+The ***exemplos.py*** script has some exemples with analitical solutions and derivatives, which can be usefull for further developments.
+
