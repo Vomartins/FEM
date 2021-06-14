@@ -65,3 +65,17 @@ class exemplo4(object):
         self.ub = 0
         self.solucao = lambda x: x*(-x+((x*np.log(x))/np.log(4))+1)
         self.derivada = lambda x: (2*x*np.log(x)+(1-2*np.log(4))*x+np.log(4))/np.log(4)
+        
+class exemplo5(object):
+    def __init__(self,epsilon):
+        self.alpha = lambda x: -epsilon
+        self.beta = lambda x: 1
+        self.gamma = lambda x: 0
+        self.f = lambda x: 0
+        self.a = 0
+        self.b = 1
+        self.ua = 1
+        self.ub = 0
+        self.solucao = lambda x: (1/(1-np.exp(-1/epsilon)))*(1-np.exp(-(1-x)/epsilon))
+        self.derivada = lambda x: (2*x*np.log(x)+(1-2*np.log(4))*x+np.log(4))/np.log(4)
+         
