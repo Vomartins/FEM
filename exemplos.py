@@ -77,5 +77,5 @@ class exemplo5(object):
         self.ua = 1
         self.ub = 0
         self.solucao = lambda x: (1/(1-np.exp(-1/epsilon)))*(1-np.exp(-(1-x)/epsilon))
-        self.derivada = lambda x: (2*x*np.log(x)+(1-2*np.log(4))*x+np.log(4))/np.log(4)
+        self.derivada = lambda x: (1/(1-np.exp(-1/epsilon)))*(-np.exp(-(1-x)/epsilon)/epsilon)
          
